@@ -1,0 +1,27 @@
+//Roll No:1020
+//Name:Sagar Nitin Dhadke
+//practical no 4
+#include<stdio.h>
+#include<conio.h>
+
+void main(int argc, char *argv[] )  
+{
+clrscr();  
+printf("File name: %s\n", argv[0]);  
+ 
+if(argc < 2)
+{  
+      printf("No argument passed.\n");  
+   }  
+else
+{  
+      printf("Argument 1: %s\n", argv[1]);  
+   }  
+getch();
+}
+
+/*
+output
+File name:C:\TURBOC3\SOURCE\TCDEF.EXE
+NO arguments passed.
+*/
